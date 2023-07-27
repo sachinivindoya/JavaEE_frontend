@@ -61,25 +61,26 @@
     </div>
 </div>
 </div>
+<div class="container-fluid mt-5" id="customerform">
 <table>
     <tr>
         <td>
             <form autocomplete="off" onsubmit="onFormSubmit()">
                 <div>
-                    <label for="productCode">Product Code</label>
-                    <input type="text" name="productCode" id="productCode">
+                    <label for="customerCode">Customer Code</label>
+                    <input type="text" name="customerCode" id="customerCode">
                 </div>
                 <div>
-                    <label for="product">Product Name</label>
-                    <input type="text" name="product" id="product">
+                    <label for="name">Customer Name</label>
+                    <input type="text" name="name" id="name">
                 </div>
                 <div>
-                    <label for="qty">Qty</label>
-                    <input type="number" name="qty" id="qty">
+                    <label for="address">Address</label>
+                    <input type="text" name="address" id="address">
                 </div>
                 <div>
-                    <label for="perPrice">Price</label>
-                    <input type="number" name="perPrice" id="perPrice">
+                    <label for="tele">Telephone</label>
+                    <input type="number" name="tele" id="tele">
                 </div>
 
                 <div class="form_action--button">
@@ -92,10 +93,10 @@
             <table class="list" id="storeList">
                 <thead>
                 <tr>
-                    <th>Product Code</th>
-                    <th>Product Name</th>
-                    <th>Qty</th>
-                    <th>Price</th>
+                    <th>Customer Code</th>
+                    <th>Customer Name</th>
+                    <th>Address</th>
+                    <th>Telephone</th>
                 </tr>
                 </thead>
                 <tbody>
@@ -106,6 +107,9 @@
         </td>
     </tr>
 </table>
+</div>
+<!-- item form -->
 
+<script src="js/script.js"></script>
 </body>
 </html>

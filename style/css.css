@@ -12,7 +12,7 @@ body{
 
 
 .title{
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 600;
     font-family: "Century Gothic";
     margin-top: 100px;
@@ -71,18 +71,19 @@ input[type="submit"],input[type="reset"]{
     margin:15px 0 10px;
     display: inline-block;
     border: none;
-    border-radius: 30px;
     font-size: 1rem;
     cursor: pointer;
-    outline: none;
+
 }
 
 input[type="submit"]:hover{
-    background: #4b99d8;
+    background: #146c43;
+    color: white;
 }
 
 input[type="reset"]:hover{
-    background: #4b99d8;
+    background: #d63384;
+    color: white;
 }
 
 button{
@@ -91,12 +92,12 @@ button{
     margin:15px 0 10px;
     display: inline-block;
     border: none;
-    border-radius: 30px;
+    border-radius: 50%;
     font-size: 1rem;
     cursor: pointer;
-    outline: none;
+
 }
 
 button:hover{
-    background:#4b99d8 ;
+    background:#d63384 ;
 }
