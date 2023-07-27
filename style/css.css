@@ -6,3 +6,27 @@ body{
     background-image: url("../images/background.jpg");
     opacity: 85%;
 }
+
+
+.title{
+    font-size: 40px;
+    font-weight: 600;
+    font-family: "Century Gothic";
+    margin-top: 100px;
+    color: #ffc720;
+}
+
+.logo{
+    alignment: center;
+    width: 500px;
+}
+.des{
+    font-family: Bahnschrift;
+    font-size: 20px;
+    color: #bacbe6;
+}
+.cart{
+    font-family: "Comic Sans MS";
+    color: #ffffff;
+    font-size: 30px;
+}
